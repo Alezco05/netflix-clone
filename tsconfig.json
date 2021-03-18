@@ -8,10 +8,16 @@
   "files": [],
   "references": [
     {
+      "compilerOptions": {
+          "experimentalDecorators": true,
+          "allowJs": true
+      }
+    },
+    {
       "path": "./tsconfig.app.json"
     },
     {
       "path": "./tsconfig.spec.json"
-    }
+    },
 ]
 }
